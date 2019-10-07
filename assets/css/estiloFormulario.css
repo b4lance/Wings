@@ -1,0 +1,89 @@
+*{
+	margin:0%;
+	padding:0%;
+}
+
+
+h1{
+	position:absolute;
+	font-size:35px;
+	color:#fff ;
+	top:0.7em;
+	left:0.8em;
+	overflow:hidden;
+}
+
+
+
+form{
+	display: inline-block;
+	position:relative;
+	border:solid black 4px;
+	width:40%;
+	background:#A9CCE3;
+	border-radius: 2%;
+	margin-bottom:25px;
+	margin-left:15%;
+	margin-top:1%;
+	box-sizing:border-box;
+	
+}
+label,input,textarea,select{
+	display:block;
+	width:95%;
+	box-sizing:border-box;
+	padding:2px;
+	margin:1%;
+}
+
+input:hover{
+	background:#F4ECF7;
+	color:black;
+}
+textarea:hover{
+	background:#F4ECF7;
+	color:black;
+}
+
+input{
+	padding:7px 7px;
+box-sizing:border-box;
+}
+
+input[type="radio"]{
+	
+	width:20%;
+	display: line;
+	margin-bottom:1%;
+	 clear:both;
+	 float right;
+}
+textarea{
+	resize: vertical;
+	max-height : 250px;
+	min-height: 60px;
+}
+input:focus,textarea:focus,select:focus{
+	border: 2px solid #819FF7;
+}
+
+input[type="submit"],input[type="reset"]{
+	width:50%;
+	font-size:16px;
+	background:#2471A3;
+	padding:2%;
+	border-radius: 5px;
+}
+
+input[type="submit"]:hover,input[type="reset"]:hover{
+	background:#3498DB;
+	cursor: pointer;
+	
+}
+table{
+	width:95%;
+	box-sizing:border-box;
+	padding:3px;
+	margin:1%;
+}
+
